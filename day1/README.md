@@ -17,7 +17,7 @@ For example, suppose you had the following report:
 ```
 This report indicates that, scanning outward from the submarine, the sonar sweep found depths of 199, 200, 208, 210, and so on.
 
-## --- Part One ---
+## Part One
 
 The first order of business is to figure out how quickly the depth increases, just so you know what you're dealing with - you never know if the keys will get carried into deeper water by an ocean current or a fish or something.
 
@@ -39,7 +39,7 @@ In this example, there are 7 measurements that are larger than the previous meas
 How many measurements are larger than the previous measurement?
 
 Your puzzle answer was 1154.
-## --- Part Two ---
+## Part Two
 
 Considering every single measurement isn't as useful as you expected: there's just too much noise in the data.
 

@@ -12,6 +12,8 @@ for i in range(1, len(depths)):
 print("[+] Exercise 1:",increases)
 ### ########## ###
 
+print()
+
 ### Exercise 1 ###
 increases = 0
 last = sum([depths[0], depths[1], depths[2]])

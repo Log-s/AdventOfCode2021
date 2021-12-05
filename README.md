@@ -1,6 +1,8 @@
 # AdventOfCode2021
 My progress on the advent of code 2021 event : https://adventofcode.com/2021
 
+**/!\\** Every script is to be ran with python 3.10
+
 
 You're minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
 
