@@ -15,6 +15,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## Progress
 
+⭐⭐⭐ `6/50` ⭐⭐⭐
+
 |      Summary      | Done |
 |-------------------|------|
 |  [Day 1](day1/)   |  ✅  |
