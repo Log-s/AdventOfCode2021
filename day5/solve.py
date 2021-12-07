@@ -31,12 +31,12 @@ for coord in coords:
     x1, y1, x2, y2 = coord[0][0], coord[0][1], coord[1][0], coord[1][1]
     # Column
     if x1 == x2:
-        sign = 1 if y2-y1 > 0 else -1
+        sign = 1 if y2-y1 >= 0 else -1
         for y in range(y1, y2+1 if sign == 1 else y2-1, sign):
             grid[y][x1] += 1
     # Line
-    if y1 == y2:
-        sign = 1 if x2-x1 > 0 else -1
+    elif y1 == y2:
+        sign = 1 if x2-x1 >= 0 else -1
         for x in range(x1,  x2+1 if sign == 1 else x2-1, sign):
             grid[y1][x] += 1
 # Count line overlaps
@@ -54,6 +54,28 @@ print()
 ### Exercise 2 ###
 # Construct empty grid
 grid = constructGrid(coords)
+# Fill grid with lines
+for coord in coords:
+    x1, y1, x2, y2 = coord[0][0], coord[0][1], coord[1][0], coord[1][1]
+    # Column
+    if x1 == x2:
+        sign = 1 if y2-y1 >= 0 else -1
+        for y in range(y1, y2+1 if sign == 1 else y2-1, sign):
+            grid[y][x1] += 1
+    # Line
+    elif y1 == y2:
+        sign = 1 if x2-x1 >= 0 else -1
+        for x in range(x1,  x2+1 if sign == 1 else x2-1, sign):
+            grid[y1][x] += 1
+    # Diagonal
+    else:
+        signY = 1 if y2-y1 >= 0 else -1
+        signX = 1 if x2-x1 >= 0 else -1
+        steps = abs(x2-x1)+1
+        for s in range(steps):
+            grid[y1][x1] += 1
+            y1 += 1*signY
+            x1 += 1*signX
 
 # Count line overlaps
 overlaps = 0
