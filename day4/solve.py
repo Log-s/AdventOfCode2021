@@ -61,7 +61,6 @@ for random in randoms:
         mark(grid, random)
         if isWon(grid) and grid not in solved:
             solved.append(grid)
-            print(len(solved), len(grids))
             if len(solved) - len(grids) == 0:
                 score = calculateScore(grid, random)
                 won = True
