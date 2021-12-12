@@ -15,7 +15,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## Progress
 
-⭐⭐⭐ `18/50` ⭐⭐⭐
+⭐⭐⭐ `20/50` ⭐⭐⭐
 
 |      Summary      | Status |
 |-------------------|------|
@@ -28,7 +28,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 |  [Day 7](day7/)   |  ✅  |
 |  [Day 8](day8/)   |  ✅  |
 |  [Day 9](day9/)   |  ✅  |
-| [Day 10](day10/)  |  ❌  |
+| [Day 10](day10/)  |  ✅  |
 | [Day 11](day11/)  |  ❌  |
 | [Day 12](day12/)  |  ❌  |
 | [Day 13](day13/)  |  ❌  |
