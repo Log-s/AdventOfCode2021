@@ -95,7 +95,6 @@ for index in range(len(patterns)):
     
     result += int(n)
 
-#fgaecd
 print("[+] Exercise 2:")
 print("\t- Sum of decoded outputs:", result)
 ### ########## ###
