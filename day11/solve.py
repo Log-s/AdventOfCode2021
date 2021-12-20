@@ -72,7 +72,7 @@ print("\t- Number of flashes:", Octopus.flashes)
 
 
 
-### Exercise 1 ###
+### Exercise 2 ###
 
 # Create new grid with Octopus objects
 grid = []
